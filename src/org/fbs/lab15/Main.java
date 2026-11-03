@@ -7,7 +7,7 @@ import org.fbs.lab15.serial.PhysicalProduct;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main() {
         Repository<Order> orderRepo = new Repository<>();
         Scanner scanner = new Scanner(System.in);
 
